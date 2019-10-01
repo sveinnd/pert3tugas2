@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteX="-29dp"
+        tools:layout_editor_absoluteY="0dp">
+
+        <EditText
+            android:id="@+id/editText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="6dp"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:text="write something here~" />
+
+        <Button
+            android:id="@+id/button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentBottom="true"
+            android:text="Send >" />
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_above="@id/button"
+            android:layout_alignParentRight="true"
+            android:layout_marginStart="15dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginEnd="15dp"
+            android:layout_marginRight="15dp"
+            android:layout_marginBottom="15dp"
+            app:srcCompat="@drawable/odicon" />
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="250dp"
+            android:layout_height="68dp"
+            android:layout_above="@id/button"
+            android:layout_alignParentTop="false"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentBottom="false"
+            android:layout_marginRight="79dp"
+            android:layout_marginBottom="16dp"
+            android:background="#E040FB"
+            android:padding="10dp"
+            android:text="Where is the crowd ?"
+            android:textColor="#FFFFFF" />
+
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_above="@id/textView"
+            android:layout_marginStart="15dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginEnd="15dp"
+            android:layout_marginBottom="15dp"
+            app:srcCompat="@drawable/invokericon" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="244dp"
+            android:layout_height="wrap_content"
+            android:layout_above="@id/imageView"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentRight="false"
+            android:layout_marginLeft="80dp"
+            android:layout_marginBottom="10dp"
+            android:background="#7C4DFF"
+            android:padding="10dp"
+            android:text="This guy has no chill~"
+            android:textColor="#FFFFFF" />
+
+        <ImageView
+            android:id="@+id/imageView3"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_above="@id/textView2"
+            android:layout_alignParentRight="true"
+            android:layout_marginStart="15dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginEnd="15dp"
+            android:layout_marginBottom="15dp"
+            app:srcCompat="@drawable/axeicon" />
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="245dp"
+            android:layout_height="85dp"
+            android:layout_above="@id/imageView3"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentBottom="false"
+            android:layout_marginRight="88dp"
+            android:layout_marginBottom="-80dp"
+            android:background="#536DFE"
+            android:padding="10dp"
+            android:text="cccccccccceeeeeeeeeeeebbbbbbbbbbbbb !!!!!!!!!!!!!!!!"
+            android:textColor="#FFFFFF" />
+    </RelativeLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
